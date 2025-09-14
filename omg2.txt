@@ -1,0 +1,104 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+  background: #222;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 25px;
+  font-size: 14px;
+}
+nav a:hover {
+  color: #1e90ff;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #444;
+  color: #fff;
+  padding: 60px 50px;
+}
+.hero-text { max-width: 50%; }
+.hero-text h1 { font-size: 40px; margin-bottom: 20px; }
+.hero-text p { margin-bottom: 20px; line-height: 1.6; }
+.hero-img img { max-width: 300px; border-radius: 10px; }
+
+/* Button */
+.btn {
+  display: inline-block;
+  background: #1e90ff;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.btn:hover { background: #0d6efd; }
+
+/* About Section */
+.about {
+  display: flex;
+  align-items: center;
+  padding: 60px 50px;
+  background: #fff;
+  color: #333;
+}
+.about-img img {
+  max-width: 250px;
+  margin-right: 40px;
+  border-radius: 10px;
+}
+.about-text h2 { font-size: 28px; margin-bottom: 20px; }
+.about-text p { margin-bottom: 20px; line-height: 1.6; }
+
+/* Skills */
+#skills {
+  padding: 40px 50px;
+  background: #f4f4f4;
+}
+#skills h2 { margin-bottom: 15px; font-size: 24px; color: #222; }
+#skills ul { list-style: square; margin-left: 20px; line-height: 1.8; }
+
+/* Projects */
+#projects {
+  padding: 40px 50px;
+}
+#projects h2 { margin-bottom: 15px; font-size: 24px; }
+.project { margin-bottom: 20px; }
+
+/* Contact */
+#contact {
+  padding: 40px 50px;
+  background: #f4f4f4;
+}
+#contact h2 { margin-bottom: 15px; font-size: 24px; }
+#contact a { color: #1e90ff; text-decoration: none; }
+#contact a:hover { text-decoration: underline; }
+
+/* Footer */
+footer {
+  background: #222;
+  color: #bbb;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 20px;
+}
